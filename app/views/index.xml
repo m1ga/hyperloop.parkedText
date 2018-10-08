@@ -1,6 +1,6 @@
 <Alloy>
 	<Window class="container">
-		<View id="view_lbl" />
-		<Button id="btn_clear" title="Clear" />
+		<View id="view_lbl"/>
+		<Button id="btn_clear" title="Clear" onClick="clearText"/>
 	</Window>
 </Alloy>
