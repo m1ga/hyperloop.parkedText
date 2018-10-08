@@ -1,0 +1,24 @@
+".container": {
+	backgroundColor:"#fff"
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+}
+
+"#label": {
+	font: {
+		fontSize: 12
+	}
+}
+
+"#view_lbl": {
+	height:Ti.UI.SIZE,
+	width:Ti.UI.SIZE
+}
+
+"#btn_clear": {
+	bottom:10
+}

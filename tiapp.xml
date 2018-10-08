@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+	<id>com.miga.hyperpark</id>
+	<name>ParkedText</name>
+	<version>1.0</version>
+	<publisher>not specified</publisher>
+	<url>unspecified</url>
+	<description/>
+	<copyright>not specified</copyright>
+	<icon>appicon.png</icon>
+	<fullscreen>false</fullscreen>
+	<navbar-hidden>false</navbar-hidden>
+	<analytics>false</analytics>
+	<guid>77e90157-05ad-45ad-9aaa-b22225f5b21c</guid>
+	<property name="ti.ui.defaultunit" type="string">dp</property>
+	<property name="run-on-main-thread" type="bool">true</property>
+	<ios></ios>
+	<android xmlns:android="http://schemas.android.com/apk/res/android"></android>
+	<mobileweb></mobileweb>
+	<modules>
+		<module platform="android">hyperloop</module>
+	</modules>
+	<deployment-targets>
+		<target device="android">true</target>
+	</deployment-targets>
+	<sdk-version>7.4.0.GA</sdk-version>
+	<plugins>
+		<plugin version="1.0">ti.alloy</plugin>
+	</plugins>
+	<property name="appc-app-id" type="string">598b299b590bc001f44ed66b</property>
+</ti:app>
